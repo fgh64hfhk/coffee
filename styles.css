@@ -169,8 +169,9 @@ section {
     z-index: 1000;
 }
 
-.header .logo .image {
+.header .logo svg {
     height: 6rem;
+    color: white;
 }
 
 .header .navbar a {
@@ -325,7 +326,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../_images/banner.jpg) no-repeat;
+    background: url(images/banner.jpg) no-repeat;
 
     background-size: cover;
     background-position: center;
